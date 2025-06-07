@@ -2,6 +2,7 @@ build/*
 
 .DS_Store
 
+Days100OfSwiftUI.xcodeproj/*
 *.xcuserstate
 *.xcuserstate
 *.xcsettings
