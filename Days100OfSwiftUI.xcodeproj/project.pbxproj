@@ -33,6 +33,11 @@
 		6F0BEE682DF3C2DA00DAEC82 /* TextEditorUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BEE672DF3C2DA00DAEC82 /* TextEditorUIView.swift */; };
 		6F82B8A02DEF427100FCA600 /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82B89F2DEF427100FCA600 /* PaddingUIView.swift */; };
 		6F82B8A22DEF452500FCA600 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82B8A12DEF452500FCA600 /* SpacerView.swift */; };
+		6FB46D0B2DF9A0FE000130BE /* BMIResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46D0A2DF9A0FE000130BE /* BMIResultView.swift */; };
+		6FB46D0D2DFA4A25000130BE /* GridNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46D0C2DFA4A25000130BE /* GridNewView.swift */; };
+		6FB46D112DFA4F65000130BE /* ContentUnavailableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46D102DFA4F65000130BE /* ContentUnavailableUIView.swift */; };
+		6FB46D132DFA50C0000130BE /* ControlGridMenuUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46D122DFA50C0000130BE /* ControlGridMenuUIView.swift */; };
+		6FB46D172DFA52F7000130BE /* ObservedMacroUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46D162DFA52F7000130BE /* ObservedMacroUIView.swift */; };
 		6FCCF7E22DF530EC00C4FDF3 /* ToggleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCF7E12DF530EC00C4FDF3 /* ToggleUIView.swift */; };
 		6FCCF7E42DF5324D00C4FDF3 /* PickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCF7E32DF5324D00C4FDF3 /* PickerUIView.swift */; };
 		6FCCF7E62DF5385200C4FDF3 /* ColorPickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCF7E52DF5385200C4FDF3 /* ColorPickerUIView.swift */; };
@@ -53,6 +58,28 @@
 		6FCCF8072DF7F63F00C4FDF3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCF8062DF7F63F00C4FDF3 /* OnboardingView.swift */; };
 		6FEB2B2F2DF8193400EEA73B /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B2E2DF8193400EEA73B /* ProfileUIView.swift */; };
 		6FEB2B312DF81D0500EEA73B /* AsyncImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B302DF81D0500EEA73B /* AsyncImageUIView.swift */; };
+		6FEB2B332DF8208C00EEA73B /* BackgroundMaterialsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B322DF8208C00EEA73B /* BackgroundMaterialsUIView.swift */; };
+		6FEB2B352DF8254700EEA73B /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B342DF8254700EEA73B /* TextSelectionView.swift */; };
+		6FEB2B372DF8259C00EEA73B /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B362DF8259C00EEA73B /* ButtonStyleView.swift */; };
+		6FEB2B392DF82A0900EEA73B /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B382DF82A0900EEA73B /* SwipeActionsView.swift */; };
+		6FEB2B3B2DF82EF100EEA73B /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B3A2DF82EF100EEA73B /* BadgeView.swift */; };
+		6FEB2B3D2DF84D0500EEA73B /* FocusStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B3C2DF84D0500EEA73B /* FocusStateView.swift */; };
+		6FEB2B3F2DF853B300EEA73B /* OnSubmitLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B3E2DF853B300EEA73B /* OnSubmitLabelView.swift */; };
+		6FEB2B412DF86EB000EEA73B /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B402DF86EB000EEA73B /* NavigationStackView.swift */; };
+		6FEB2B552DF8F7E300EEA73B /* ToolBarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B542DF8F7E300EEA73B /* ToolBarUIView.swift */; };
+		6FEB2B572DF8FC0A00EEA73B /* ResiziableFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B562DF8FC0A00EEA73B /* ResiziableFormView.swift */; };
+		6FEB2B592DF9000700EEA73B /* SafeIgnoreAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B582DF9000700EEA73B /* SafeIgnoreAreaView.swift */; };
+		6FEB2B5B2DF901A400EEA73B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B5A2DF901A400EEA73B /* GroupView.swift */; };
+		6FEB2B5D2DF902A900EEA73B /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B5C2DF902A900EEA73B /* AnimationView.swift */; };
+		6FEB2B5F2DF9053300EEA73B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B5E2DF9053300EEA73B /* MenuView.swift */; };
+		6FEB2B612DF9066200EEA73B /* NativePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B602DF9066200EEA73B /* NativePopoverView.swift */; };
+		6FEB2B632DF91AEA00EEA73B /* AnyLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B622DF91AEA00EEA73B /* AnyLayoutView.swift */; };
+		6FEB2B672DF94AEE00EEA73B /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B662DF94AEE00EEA73B /* ViewThatFitsView.swift */; };
+		6FEB2B692DF9547A00EEA73B /* NavigationSplidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B682DF9547A00EEA73B /* NavigationSplidView.swift */; };
+		6FEB2B6B2DF95A0400EEA73B /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B6A2DF95A0400EEA73B /* MyProfileView.swift */; };
+		6FEB2B702DF964E500EEA73B /* MyArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B6F2DF964E500EEA73B /* MyArticleView.swift */; };
+		6FEB2B722DF9725600EEA73B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B712DF9725600EEA73B /* Color+Extension.swift */; };
+		6FEB2B762DF9774C00EEA73B /* BMIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB2B752DF9774C00EEA73B /* BMIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +129,11 @@
 		6F612DB22DE462FF00D2E3DE /* Days100OfSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Days100OfSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F82B89F2DEF427100FCA600 /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
 		6F82B8A12DEF452500FCA600 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		6FB46D0A2DF9A0FE000130BE /* BMIResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultView.swift; sourceTree = "<group>"; };
+		6FB46D0C2DFA4A25000130BE /* GridNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridNewView.swift; sourceTree = "<group>"; };
+		6FB46D102DFA4F65000130BE /* ContentUnavailableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableUIView.swift; sourceTree = "<group>"; };
+		6FB46D122DFA50C0000130BE /* ControlGridMenuUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGridMenuUIView.swift; sourceTree = "<group>"; };
+		6FB46D162DFA52F7000130BE /* ObservedMacroUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedMacroUIView.swift; sourceTree = "<group>"; };
 		6FCCF7E12DF530EC00C4FDF3 /* ToggleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleUIView.swift; sourceTree = "<group>"; };
 		6FCCF7E32DF5324D00C4FDF3 /* PickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUIView.swift; sourceTree = "<group>"; };
 		6FCCF7E52DF5385200C4FDF3 /* ColorPickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUIView.swift; sourceTree = "<group>"; };
@@ -122,6 +154,28 @@
 		6FCCF8062DF7F63F00C4FDF3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		6FEB2B2E2DF8193400EEA73B /* ProfileUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIView.swift; sourceTree = "<group>"; };
 		6FEB2B302DF81D0500EEA73B /* AsyncImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageUIView.swift; sourceTree = "<group>"; };
+		6FEB2B322DF8208C00EEA73B /* BackgroundMaterialsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsUIView.swift; sourceTree = "<group>"; };
+		6FEB2B342DF8254700EEA73B /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
+		6FEB2B362DF8259C00EEA73B /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		6FEB2B382DF82A0900EEA73B /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		6FEB2B3A2DF82EF100EEA73B /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		6FEB2B3C2DF84D0500EEA73B /* FocusStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateView.swift; sourceTree = "<group>"; };
+		6FEB2B3E2DF853B300EEA73B /* OnSubmitLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmitLabelView.swift; sourceTree = "<group>"; };
+		6FEB2B402DF86EB000EEA73B /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		6FEB2B542DF8F7E300EEA73B /* ToolBarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarUIView.swift; sourceTree = "<group>"; };
+		6FEB2B562DF8FC0A00EEA73B /* ResiziableFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResiziableFormView.swift; sourceTree = "<group>"; };
+		6FEB2B582DF9000700EEA73B /* SafeIgnoreAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeIgnoreAreaView.swift; sourceTree = "<group>"; };
+		6FEB2B5A2DF901A400EEA73B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		6FEB2B5C2DF902A900EEA73B /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		6FEB2B5E2DF9053300EEA73B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		6FEB2B602DF9066200EEA73B /* NativePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverView.swift; sourceTree = "<group>"; };
+		6FEB2B622DF91AEA00EEA73B /* AnyLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutView.swift; sourceTree = "<group>"; };
+		6FEB2B662DF94AEE00EEA73B /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
+		6FEB2B682DF9547A00EEA73B /* NavigationSplidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplidView.swift; sourceTree = "<group>"; };
+		6FEB2B6A2DF95A0400EEA73B /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		6FEB2B6F2DF964E500EEA73B /* MyArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArticleView.swift; sourceTree = "<group>"; };
+		6FEB2B712DF9725600EEA73B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		6FEB2B752DF9774C00EEA73B /* BMIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -170,7 +224,31 @@
 		6F612D922DE462FD00D2E3DE = {
 			isa = PBXGroup;
 			children = (
+				6FB46D0C2DFA4A25000130BE /* GridNewView.swift */,
+				6FB46D102DFA4F65000130BE /* ContentUnavailableUIView.swift */,
+				6FB46D122DFA50C0000130BE /* ControlGridMenuUIView.swift */,
+				6FB46D162DFA52F7000130BE /* ObservedMacroUIView.swift */,
+				6FEB2B3C2DF84D0500EEA73B /* FocusStateView.swift */,
+				6FEB2B3E2DF853B300EEA73B /* OnSubmitLabelView.swift */,
+				6FEB2B402DF86EB000EEA73B /* NavigationStackView.swift */,
+				6FEB2B542DF8F7E300EEA73B /* ToolBarUIView.swift */,
+				6FEB2B562DF8FC0A00EEA73B /* ResiziableFormView.swift */,
+				6FEB2B582DF9000700EEA73B /* SafeIgnoreAreaView.swift */,
+				6FEB2B5A2DF901A400EEA73B /* GroupView.swift */,
+				6FEB2B5C2DF902A900EEA73B /* AnimationView.swift */,
+				6FEB2B5E2DF9053300EEA73B /* MenuView.swift */,
+				6FEB2B602DF9066200EEA73B /* NativePopoverView.swift */,
+				6FEB2B622DF91AEA00EEA73B /* AnyLayoutView.swift */,
+				6FEB2B662DF94AEE00EEA73B /* ViewThatFitsView.swift */,
+				6FEB2B742DF9771B00EEA73B /* BMIProject */,
+				6FEB2B682DF9547A00EEA73B /* NavigationSplidView.swift */,
+				6FEB2B6C2DF964B100EEA73B /* MyProfileProject */,
 				6FEB2B302DF81D0500EEA73B /* AsyncImageUIView.swift */,
+				6FEB2B322DF8208C00EEA73B /* BackgroundMaterialsUIView.swift */,
+				6FEB2B342DF8254700EEA73B /* TextSelectionView.swift */,
+				6FEB2B362DF8259C00EEA73B /* ButtonStyleView.swift */,
+				6FEB2B382DF82A0900EEA73B /* SwipeActionsView.swift */,
+				6FEB2B3A2DF82EF100EEA73B /* BadgeView.swift */,
 				6FCCF7F12DF57A6300C4FDF3 /* DocumnetUIView.swift */,
 				6FCCF7F32DF58B7100C4FDF3 /* onAppearAndDisappearUIView.swift */,
 				6FCCF7F52DF58E4100C4FDF3 /* ifLetGuardUIView.swift */,
@@ -239,6 +317,25 @@
 				6FEB2B2E2DF8193400EEA73B /* ProfileUIView.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6FEB2B6C2DF964B100EEA73B /* MyProfileProject */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB2B6A2DF95A0400EEA73B /* MyProfileView.swift */,
+				6FEB2B712DF9725600EEA73B /* Color+Extension.swift */,
+				6FEB2B6F2DF964E500EEA73B /* MyArticleView.swift */,
+			);
+			path = MyProfileProject;
+			sourceTree = "<group>";
+		};
+		6FEB2B742DF9771B00EEA73B /* BMIProject */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB2B752DF9774C00EEA73B /* BMIView.swift */,
+				6FB46D0A2DF9A0FE000130BE /* BMIResultView.swift */,
+			);
+			path = BMIProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,26 +484,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEB2B412DF86EB000EEA73B /* NavigationStackView.swift in Sources */,
 				6F0BEE3C2DEFC7A700DAEC82 /* ForEachView.swift in Sources */,
+				6FEB2B5B2DF901A400EEA73B /* GroupView.swift in Sources */,
 				6F0BEE562DF1E85400DAEC82 /* TransitionUIView.swift in Sources */,
 				6F0BEE4E2DF1DD9500DAEC82 /* ConditionalUIView.swift in Sources */,
+				6FB46D0D2DFA4A25000130BE /* GridNewView.swift in Sources */,
 				6F0BEE582DF1EAE200DAEC82 /* SheetUIView.swift in Sources */,
 				6F0BEE482DF115CF00DAEC82 /* FunctionsUIView.swift in Sources */,
 				6F0BEE502DF1E12700DAEC82 /* TernaryUIView.swift in Sources */,
+				6FB46D0B2DF9A0FE000130BE /* BMIResultView.swift in Sources */,
 				6FCCF7EC2DF56EC200C4FDF3 /* SliderUIView.swift in Sources */,
 				6F0BEE4C2DF11A9900DAEC82 /* BindingUIView.swift in Sources */,
+				6FEB2B572DF8FC0A00EEA73B /* ResiziableFormView.swift in Sources */,
+				6FEB2B3B2DF82EF100EEA73B /* BadgeView.swift in Sources */,
+				6FB46D112DFA4F65000130BE /* ContentUnavailableUIView.swift in Sources */,
 				6FCCF7FC2DF5B45300C4FDF3 /* StateAndObservableObjectUIView.swift in Sources */,
+				6FEB2B352DF8254700EEA73B /* TextSelectionView.swift in Sources */,
 				6FCCF7F42DF58B7100C4FDF3 /* onAppearAndDisappearUIView.swift in Sources */,
 				6F0BEE522DF1E2A900DAEC82 /* AnimationUIView.swift in Sources */,
 				6FCCF7E22DF530EC00C4FDF3 /* ToggleUIView.swift in Sources */,
+				6FEB2B692DF9547A00EEA73B /* NavigationSplidView.swift in Sources */,
 				6FEB2B312DF81D0500EEA73B /* AsyncImageUIView.swift in Sources */,
 				6FCCF8002DF5C5BA00C4FDF3 /* AppStorageUIView.swift in Sources */,
 				6FCCF8042DF7EEB000C4FDF3 /* IntroView.swift in Sources */,
+				6FEB2B5F2DF9053300EEA73B /* MenuView.swift in Sources */,
 				6FCCF7EE2DF5723300C4FDF3 /* PageTabViewStyleUIView.swift in Sources */,
+				6FEB2B392DF82A0900EEA73B /* SwipeActionsView.swift in Sources */,
 				6FCCF7FE2DF5BE8500C4FDF3 /* EnvironmentObjectUIView.swift in Sources */,
+				6FEB2B3D2DF84D0500EEA73B /* FocusStateView.swift in Sources */,
 				6FCCF7F22DF57A6300C4FDF3 /* DocumnetUIView.swift in Sources */,
 				6FCCF7FA2DF5941D00C4FDF3 /* ModelUIView.swift in Sources */,
 				6FEB2B2F2DF8193400EEA73B /* ProfileUIView.swift in Sources */,
+				6FEB2B3F2DF853B300EEA73B /* OnSubmitLabelView.swift in Sources */,
 				6F0BEE642DF3BA7100DAEC82 /* ContentMenuUIView.swift in Sources */,
 				6FCCF7F02DF5774A00C4FDF3 /* DarkModeUIView.swift in Sources */,
 				6F0BEE5E2DF2659500DAEC82 /* ListUIView.swift in Sources */,
@@ -415,23 +525,37 @@
 				6FCCF7EA2DF56BE400C4FDF3 /* StepperUIView.swift in Sources */,
 				6F0BEE662DF3BD8200DAEC82 /* TextFieldUIView.swift in Sources */,
 				6F0BEE542DF1E56300DAEC82 /* AnimationCurvesUIView.swift in Sources */,
+				6FEB2B702DF964E500EEA73B /* MyArticleView.swift in Sources */,
 				6F0BEE462DF111A400DAEC82 /* StateBackUIView.swift in Sources */,
 				6F0BEE3E2DEFCA3500DAEC82 /* ScrollView.swift in Sources */,
 				6F0BEE622DF3B4DF00DAEC82 /* SheetActionUIView.swift in Sources */,
 				6F82B8A02DEF427100FCA600 /* PaddingUIView.swift in Sources */,
 				6FCCF7E62DF5385200C4FDF3 /* ColorPickerUIView.swift in Sources */,
+				6FEB2B5D2DF902A900EEA73B /* AnimationView.swift in Sources */,
 				6FCCF8072DF7F63F00C4FDF3 /* OnboardingView.swift in Sources */,
 				6F0BEE402DF08F9700DAEC82 /* LazyVGridUIView.swift in Sources */,
+				6FEB2B372DF8259C00EEA73B /* ButtonStyleView.swift in Sources */,
+				6FB46D132DFA50C0000130BE /* ControlGridMenuUIView.swift in Sources */,
 				6F0BEE5A2DF25C2700DAEC82 /* SheetTransitionUIView.swift in Sources */,
 				6F0BEE5C2DF2610900DAEC82 /* NavigationUIView.swift in Sources */,
+				6FEB2B332DF8208C00EEA73B /* BackgroundMaterialsUIView.swift in Sources */,
+				6FEB2B552DF8F7E300EEA73B /* ToolBarUIView.swift in Sources */,
+				6FEB2B632DF91AEA00EEA73B /* AnyLayoutView.swift in Sources */,
+				6FEB2B722DF9725600EEA73B /* Color+Extension.swift in Sources */,
+				6FEB2B672DF94AEE00EEA73B /* ViewThatFitsView.swift in Sources */,
+				6FEB2B592DF9000700EEA73B /* SafeIgnoreAreaView.swift in Sources */,
 				6F0BEE602DF26C4700DAEC82 /* AlertUIView.swift in Sources */,
+				6FEB2B6B2DF95A0400EEA73B /* MyProfileView.swift in Sources */,
 				6F0BEE682DF3C2DA00DAEC82 /* TextEditorUIView.swift in Sources */,
 				6FCCF7E42DF5324D00C4FDF3 /* PickerUIView.swift in Sources */,
 				6FCCF7F82DF591A400C4FDF3 /* onTapGestureUIView.swift in Sources */,
 				6FCCF7F62DF58E4100C4FDF3 /* ifLetGuardUIView.swift in Sources */,
 				6F0BEE4A2DF1183800DAEC82 /* SubviewUIView.swift in Sources */,
 				6FCCF7E82DF539AD00C4FDF3 /* DataPickerUIView.swift in Sources */,
+				6FB46D172DFA52F7000130BE /* ObservedMacroUIView.swift in Sources */,
+				6FEB2B612DF9066200EEA73B /* NativePopoverView.swift in Sources */,
 				6F0BEE422DF094C300DAEC82 /* IgnoresUiView.swift in Sources */,
+				6FEB2B762DF9774C00EEA73B /* BMIView.swift in Sources */,
 				6F0BEE442DF10DCC00DAEC82 /* ButtonUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,7 +728,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +757,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

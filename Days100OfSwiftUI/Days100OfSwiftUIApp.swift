@@ -11,7 +11,7 @@ import SwiftUI
 struct Days100OfSwiftUI:App {
     var body: some Scene {
         WindowGroup {
-            IntroView()
+            BMIView()
         }
         
     }
